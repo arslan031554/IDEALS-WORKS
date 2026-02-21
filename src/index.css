@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-800 antialiased font-sans;
+  }
+}
+
+@theme {
+  --font-sans: 'Outfit', 'Inter', system-ui, sans-serif;
+  --font-display: 'Bebas Neue', cursive;
+
+  /* Brand Colors - Soft White + Teal + Sky Blue */
+  --color-primary: #14B8A6;
+  --color-primary-light: #5EEAD4;
+  --color-primary-dark: #0D9488;
+  --color-secondary: #0EA5E9;
+  --color-secondary-light: #7DD3FC;
+  --color-secondary-dark: #0284C7;
+  --color-dark: #0F172A;
+  --color-gray: #64748B;
+  --color-light-gray: #E2E8F0;
+  --color-accent: #F0F9FF;
+  --color-white: #FFFFFF;
+
+  --color-aluminum: #E2E8F0;
+  --color-steel: #334155;
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #F1F5F9;
+}

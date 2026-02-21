@@ -1,0 +1,42 @@
+export const aluminiumData = [
+    {
+        id: 1,
+        category: "Aluminium Windows",
+        name: "Modern Sliding Window",
+        image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=2000",
+        description: "Premium smooth sliding aluminium window with toughened glass.",
+        material: "High-grade 6063 T6 Aluminium",
+        features: ["Noise insulation", "Waterproof", "Dustproof", "Smooth operation"],
+        fullDescription: "Our Modern Sliding Windows are designed for both aesthetic appeal and functionality. Built with high-grade aluminium, they ensure durability and resistance to harsh weather conditions. The smooth sliding mechanism allows for effortless operation, while the double glazing option provides excellent thermal and acoustic insulation.",
+    },
+    {
+        id: 2,
+        category: "Double Glazed",
+        name: "Acoustic Double Glazed door",
+        image: "https://images.unsplash.com/photo-1628744876497-eb30460be9f6?auto=format&fit=crop&q=80&w=2000",
+        description: "High-performance double glazed doors for maximum insulation.",
+        material: "Thermal Divide Aluminium",
+        features: ["Panic-proof", "Secure locking system", "Energy efficient"],
+        fullDescription: "Enhance your comfort with our Acoustic Double Glazed doors. These doors are perfect for reducing noise and maintaining temperature in your home, providing a peaceful environment.",
+    },
+    {
+        id: 3,
+        category: "Partitions",
+        name: "Office Glass Partition",
+        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=2000",
+        description: "Sleek aluminium framed glass partitions for modern offices.",
+        material: "Anodized Aluminium & Tempered Glass",
+        features: ["Sound reducing", "Modern look", "Customizable layout"],
+        fullDescription: "Create distinct work areas while maintaining an open feel with our Office Glass Partitions. The sleek aluminium frames add a touch of modern elegance, while the tempered glass ensures safety and allows natural light to flow through the workspace.",
+    },
+    {
+        id: 4,
+        category: "Aluminium Windows",
+        name: "Heavy Duty Sliding Window",
+        image: "https://images.unsplash.com/photo-1503708928676-1cb796a0891e?auto=format&fit=crop&q=80&w=2000",
+        description: "Robust sliding window designed for high-rise buildings.",
+        material: "Heavy Gauge Aluminium",
+        features: ["High wind load resistance", "Multi-point locking", "Easy maintenance"],
+        fullDescription: "Engineered for strength and durability, our Heavy Duty Sliding Windows are ideal for high-rise apartments and commercial buildings. They are tested to withstand high wind loads and provide superior security with multi-point locking systems.",
+    }
+];
