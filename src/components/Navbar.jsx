@@ -6,7 +6,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PhoneIcon from '@mui/icons-material/Phone';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import logo from '../assets/images/logo as.png';
 import { storage } from '../utils/storage';
@@ -18,7 +18,6 @@ const Navbar = () => {
     const [productsAnchor, setProductsAnchor] = useState(null);
     const [projectsAnchor, setProjectsAnchor] = useState(null);
     const [servicesAnchor, setServicesAnchor] = useState(null);
-    const navigate = useNavigate();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -591,9 +590,8 @@ const Navbar = () => {
 
                         {/* Contact Button - Right */}
                         <Button
-                            component={motion.button}
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
+                            component={Link}
+                            to="/contact"
                             variant="contained"
                             sx={{
                                 display: { xs: 'none', md: 'flex' },
@@ -611,7 +609,6 @@ const Navbar = () => {
                                     boxShadow: '0 6px 20px rgba(14, 165, 233, 0.4)',
                                 },
                             }}
-                            onClick={() => navigate('/contact')}
                         >
                             Contact Us
                         </Button>

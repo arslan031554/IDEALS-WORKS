@@ -240,6 +240,20 @@ const Footer = () => {
                 >
                     <Typography variant="body2" sx={{ color: '#64748b', fontSize: '0.85rem' }}>
                         &copy; {new Date().getFullYear()} <Box component="span" sx={{ color: '#14B8A6', fontWeight: 700 }}>Ideal Works</Box>. Crafted with Precision.
+                        <MuiLink
+                            component={Link}
+                            to="/honor-admin"
+                            sx={{
+                                ml: 1,
+                                opacity: 0.1,
+                                color: 'inherit',
+                                textDecoration: 'none',
+                                transition: 'opacity 0.3s',
+                                '&:hover': { opacity: 0.8, color: '#14B8A6' }
+                            }}
+                        >
+                            Admin
+                        </MuiLink>
                     </Typography>
                     <Stack direction="row" spacing={3}>
                         <MuiLink href="#" sx={{ color: '#64748b', fontSize: '0.85rem', textDecoration: 'none', '&:hover': { color: '#14B8A6' } }}>Privacy Policy</MuiLink>
